@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
 
     get '/' do
-        "text"
+        "<h1>test<h1>"
     end
 
     get '/index' do
